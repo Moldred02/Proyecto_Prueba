@@ -1,0 +1,12 @@
+Instrucciones para utilizar git
+
+primero abres GIT BASH
+
+despues pones la direccion de la carpeta, cd (cambiar direccion, me funciono poniendolo por pasos, es decir cd D, cd Fime, cd Git)
+
+git init para iniciar
+
+ls -al puedes ver la carpeta oculta que genero git, aqui estara los cambios que se guardan
+
+
+
