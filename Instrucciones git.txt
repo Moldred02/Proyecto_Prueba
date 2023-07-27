@@ -13,7 +13,8 @@ git config --global user.email "email" para cambiar los usuarios de manera globa
 
 primero abres GIT BASH
 
-despues pones la direccion de la carpeta, cd (cambiar direccion, me funciono poniendolo por pasos, es decir cd D, cd Fime, cd Git)
+despues pones la direccion de la carpeta, cd (cambiar direccion, me funciono poniendolo 
+por pasos, es decir cd D, cd Fime, cd Git)
 
 git init para iniciar
 
@@ -28,4 +29,22 @@ git add (archivo con su extension, ejemplo Instrucciones.txt ) para añadir
 git commit -m "Descripcion"  para guardar el cambio y la descripcion
 
 cat (nombre de archivo con extension) para ver el contenido
+
+git add . guarda todo lo de la carpeta para hacer otro commit
+
+
+git log (archivo con extension) muestra el historial de commits, el numero largo
+que aparece despues del commit es el tag
+
+
+git show muestra los cambios del contenido que se hicieron a comparacion con el anterior
+
+git diff (tag que se obtiene con git log) (otro tag) esto se hace para comparar 2 versiones
+primero se pone la mas reciente
+
+git reset (tag) --hard todo vuelve al estado anterior
+
+git reset (tag) --soft solo en el directorio de trabajo vuelve al anterior
+
+
 
