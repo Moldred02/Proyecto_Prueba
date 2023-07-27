@@ -1,5 +1,16 @@
 Instrucciones para utilizar git
 
+
+primero que nada hay que configurar git
+
+git config --list para ver que nos falta de configurar
+
+git config --global user.name "Nombre" para cambiar los usuarios de manera global
+
+git config --global user.email "email" para cambiar los usuarios de manera global
+
+
+
 primero abres GIT BASH
 
 despues pones la direccion de la carpeta, cd (cambiar direccion, me funciono poniendolo por pasos, es decir cd D, cd Fime, cd Git)
@@ -9,4 +20,12 @@ git init para iniciar
 ls -al puedes ver la carpeta oculta que genero git, aqui estara los cambios que se guardan
 
 
+git status muestra el status, en que branch estas, y que archivos hay.
+
+
+git add (archivo con su extension, ejemplo Instrucciones.txt ) para añadir
+
+git commit -m "Descripcion"  para guardar el cambio y la descripcion
+
+cat (nombre de archivo con extension) para ver el contenido
 
