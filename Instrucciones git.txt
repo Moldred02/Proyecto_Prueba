@@ -46,5 +46,12 @@ git reset (tag) --hard todo vuelve al estado anterior
 
 git reset (tag) --soft solo en el directorio de trabajo vuelve al anterior
 
+git checkout (tag) (archivo extension) te pone para editar el contenido de esa version por si quieres checar algo
+
+git checkout master (archivo con extension) vuelves a la ultima version
+
+git commit -am "Descripcion" es una combinacion de git add y git commit,
+solo funciona si no hay directorios nuevos
+
 
 
