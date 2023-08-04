@@ -73,9 +73,16 @@ git remote para ver que hay
 
 git remote -v para ver que se puede hacer el push
 
+git pull origin main
+
+git pull origin main --allow-unrelated-histories para fusionar la local con el repositorio,
+se trae el readme
+
+
 git push origin main          recordar que era master antes pero por temas actuales se cambio
 a main, entonces si la branch sigue siendo master, se puede cambiar con git branch -M main
 
+ 
 
  
 
