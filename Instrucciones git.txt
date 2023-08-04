@@ -1,5 +1,3 @@
-editando en github
-
 Instrucciones para utilizar git
 
 
@@ -75,7 +73,8 @@ git remote para ver que hay
 
 git remote -v para ver que se puede hacer el push
 
-git pull origin main
+git pull origin main se tiene que poner la primera vez, pero tambien sirve para traer de github
+a tus archivos locales lo que esta en la nube y se guarda
 
 git pull origin main --allow-unrelated-histories para fusionar la local con el repositorio,
 se trae el readme
