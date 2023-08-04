@@ -14,7 +14,7 @@ git config --global user.email "email" para cambiar los usuarios de manera globa
 primero abres GIT BASH
 
 despues pones la direccion de la carpeta, cd (cambiar direccion, me funciono poniendolo 
-por pasos, es decir cd D, cd Fime, cd Git)
+por pasos, es decir cd /D, cd Fime, cd Git)
 
 git init para iniciar
 
@@ -27,6 +27,9 @@ git status muestra el status, en que branch estas, y que archivos hay.
 git add (archivo con su extension, ejemplo Instrucciones.txt ) para añadir
 
 git commit -m "Descripcion"  para guardar el cambio y la descripcion
+
+git commit -am "Descripcion" es una combinacion de git add y git commit,
+solo funciona si no hay directorios nuevos
 
 cat (nombre de archivo con extension) para ver el contenido
 
@@ -50,8 +53,31 @@ git checkout (tag) (archivo extension) te pone para editar el contenido de esa v
 
 git checkout master (archivo con extension) vuelves a la ultima version
 
-git commit -am "Descripcion" es una combinacion de git add y git commit,
-solo funciona si no hay directorios nuevos
+git branch (crear nombre de branch) con esto creas de branch master a otra nueva
+
+git checkout (nombre de branch) cambias de branch, esto sirve para guardar otras versiones
+y poder vover al otro branch cuando quieras
+
+git merge (branch) significa que traeras lo de ese branch al que tienes ahorita 
+
+
+SUBIRLO A GITHUB
+
+Primero se crea un repositorio, despues le das en code y copias el de ssh, ya hemos generado
+la llave publica y privada anteriormente...
+
+git remote add origin (link) para indicar que se subira ahi 
+
+
+git remote para ver que hay
+
+git remote -v para ver que se puede hacer el push
+
+git push origin main          recordar que era master antes pero por temas actuales se cambio
+a main, entonces si la branch sigue siendo master, se puede cambiar con git branch -M main
+
+
+ 
 
 
 
