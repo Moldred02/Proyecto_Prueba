@@ -73,6 +73,8 @@ git remote para ver que hay
 
 git remote -v para ver que se puede hacer el push
 
+git pull es para traer la ultima version
+
 git pull origin main se tiene que poner la primera vez, pero tambien sirve para traer de github
 a tus archivos locales lo que esta en la nube y se guarda
 
@@ -84,7 +86,10 @@ git push origin main          recordar que era master antes pero por temas actua
 a main, entonces si la branch sigue siendo master, se puede cambiar con git branch -M main
 
  
-
+una vez que se subio a github por 1ra vez....
+para volverlo a subir si es que hay mas cambios, se pone git pull origin main, despues git commit -am 
+"descripcion", despues de nuevo git pull origin main y por ultimo
+git push origin main
  
 
 
